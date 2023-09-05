@@ -1,5 +1,12 @@
 public class Main {
-    // Recursive method to calculate the nth Fibonacci term
+    /** Recursive method to calculate the nth Fibonacci term.
+     * The Fibonacci sequence starts with 0 and 1, where each subsequent number
+     * is the sum of the two preceding numbers.
+     *
+     * @param n The position in the Fibonacci sequence for which to caluclate the value.
+     * @return The number at position 'n' of the Fibonacci sequence.
+     * @throws IllegalArgumentException if 'n' is a negative number.
+     */
     public static int calculateFibonacci(int n) {
         if (n <= 0) {
             return 0;
